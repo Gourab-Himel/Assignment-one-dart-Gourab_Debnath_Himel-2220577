@@ -41,7 +41,6 @@ void main() {
   isStudent = true;
   double weight = 22.5 * (height * height); 
   int score = 85; 
-
   double bmi = calculateBMI(weight, height);
   String grade = getGrade(score);
 
